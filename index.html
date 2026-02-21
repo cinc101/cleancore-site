@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CleanCore - Privacy-focused iOS photo cleaner. Zero network, zero tracking, 100% on-device processing.">
+    <title>CleanCore - Privacy Policy & Terms</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --indigo-600: #4F46E5;
+            --indigo-500: #6366F1;
+            --indigo-100: #E0E7FF;
+            --slate-900: #0F172A;
+            --slate-600: #475569;
+            --slate-400: #94A3B8;
+            --slate-50: #F8FAFC;
+            --white: #FFFFFF;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --indigo-600: #818CF8;
+                --indigo-100: #312E81;
+                --slate-900: #F8FAFC;
+                --slate-600: #94A3B8;
+                --slate-50: #0F172A;
+                --white: #000000;
+            }
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--slate-900);
+            background: var(--white);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            color: var(--indigo-600);
+            margin-bottom: 12px;
+        }
+
+        .tagline {
+            font-size: 18px;
+            color: var(--slate-600);
+            margin-bottom: 32px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-bottom: 40px;
+        }
+
+        nav a {
+            color: var(--indigo-600);
+            text-decoration: none;
+            font-weight: 600;
+            padding: 8px 16px;
+            border-radius: 8px;
+            transition: background 0.2s;
+        }
+
+        nav a:hover {
+            background: var(--indigo-100);
+        }
+
+        section {
+            margin-bottom: 60px;
+        }
+
+        h2 {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--slate-900);
+            margin-bottom: 24px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--indigo-600);
+        }
+
+        h3 {
+            font-size: 22px;
+            font-weight: 600;
+            color: var(--slate-900);
+            margin-top: 32px;
+            margin-bottom: 16px;
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: var(--slate-600);
+        }
+
+        ul, ol {
+            margin-left: 24px;
+            margin-bottom: 16px;
+            color: var(--slate-600);
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: var(--slate-900);
+            font-weight: 600;
+        }
+
+        .highlight {
+            background: var(--indigo-100);
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: var(--indigo-600);
+            font-weight: 600;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 80px;
+            padding-top: 32px;
+            border-top: 1px solid var(--slate-400);
+            color: var(--slate-600);
+            font-size: 14px;
+        }
+
+        a {
+            color: var(--indigo-600);
+        }
+
+        .contact-box {
+            background: var(--slate-50);
+            padding: 24px;
+            border-radius: 12px;
+            margin-top: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CleanCore</h1>
+            <p class="tagline">Privacy-focused iOS photo cleaner. Zero network, zero tracking.</p>
+            <nav>
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <!-- Privacy Policy -->
+        <section id="privacy">
+            <h2>Privacy Policy</h2>
+            <p><strong>Last Updated:</strong> February 21, 2026</p>
+
+            <h3>Our Promise</h3>
+            <p>CleanCore is built on a simple principle: <span class="highlight">your photos never leave your device</span>. We mean this literally.</p>
+
+            <h3>What We Collect</h3>
+            <p><strong>Nothing.</strong></p>
+            <p>Our App Store Privacy Label declares <strong>"Data Not Collected"</strong>. We do not collect, transmit, or store any of your personal information, including:</p>
+            <ul>
+                <li>Photos, videos, or any media content</li>
+                <li>Device identifiers or analytics</li>
+                <li>Usage patterns or behavior data</li>
+                <li>Location data</li>
+                <li>Contact information (unless you email us directly)</li>
+            </ul>
+
+            <h3>How We Process Data</h3>
+            <p>All photo analysis happens <strong>100% on your device</strong> using Apple's native frameworks:</p>
+            <ul>
+                <li><strong>PhotoKit:</strong> Accesses your photo library</li>
+                <li><strong>Vision:</strong> Analyzes image similarity and quality</li>
+                <li><strong>StoreKit:</strong> Handles in-app purchases</li>
+            </ul>
+            <p>We use <strong>zero third-party SDKs</strong>. No analytics, no crash reporting, no advertising networks.</p>
+
+            <h3>Network Activity</h3>
+            <p>CleanCore makes <strong>zero network requests</strong>. You can verify this yourself:</p>
+            <ol>
+                <li>Open iOS Settings → Privacy & Security → App Privacy Report</li>
+                <li>Look for "CleanCore" in the Network Activity section</li>
+                <li>You should see zero network requests</li>
+            </ol>
+
+            <h3>Data Storage</h3>
+            <p>The app stores only:</p>
+            <ul>
+                <li><strong>Usage quota data:</strong> Your monthly free-tier operation count (stored locally in SwiftData)</li>
+                <li><strong>Purchase receipts:</strong> Managed by Apple's StoreKit (we never see your payment info)</li>
+            </ul>
+            <p>All data stays on your device and in your iCloud (if you enable it in iOS Settings).</p>
+
+            <h3>iCloud</h3>
+            <p>If you enable iCloud for CleanCore in iOS Settings, your quota data may sync across your devices via Apple's CloudKit. This is optional and controlled by you through iOS Settings. We do not have access to your iCloud data.</p>
+
+            <h3>Children's Privacy</h3>
+            <p>CleanCore does not knowingly collect data from anyone, including children under 13. Since we collect zero data, the app is safe for all ages.</p>
+
+            <h3>Your Rights</h3>
+            <p>Since we don't collect your data, there's nothing to access, modify, or delete on our end. All app data is stored locally on your device and can be removed by deleting the app.</p>
+
+            <h3>Changes to This Policy</h3>
+            <p>If we update this policy, we'll post the new version here with an updated "Last Updated" date. Continued use of the app after changes constitutes acceptance.</p>
+        </section>
+
+        <!-- Terms of Service -->
+        <section id="terms">
+            <h2>Terms of Service</h2>
+            <p><strong>Last Updated:</strong> February 21, 2026</p>
+
+            <h3>Acceptance of Terms</h3>
+            <p>By downloading, installing, or using CleanCore ("the App"), you agree to these Terms of Service. If you do not agree, do not use the App.</p>
+
+            <h3>License</h3>
+            <p>We grant you a limited, non-exclusive, non-transferable, revocable license to use CleanCore for personal, non-commercial purposes on your iOS devices.</p>
+
+            <h3>What the App Does</h3>
+            <p>CleanCore helps you:</p>
+            <ul>
+                <li>Find and remove duplicate or similar photos</li>
+                <li>Identify large files consuming storage</li>
+                <li>Convert Live Photos to still images</li>
+                <li>Detect blurry or low-quality photos</li>
+            </ul>
+            <p><strong>Important:</strong> All processing happens on your device. We never upload, transmit, or access your photos.</p>
+
+            <h3>Subscription & Purchase Terms</h3>
+
+            <h4>Free Tier</h4>
+            <ul>
+                <li><strong>50 operations per month</strong> (deletes, Live Photo conversions, etc.)</li>
+                <li>Resets automatically on the 1st of each month</li>
+                <li>No credit card required</li>
+            </ul>
+
+            <h4>Paid Plans</h4>
+            <ul>
+                <li><strong>Monthly:</strong> $2.99/month (auto-renewable)</li>
+                <li><strong>Yearly:</strong> $19.99/year (auto-renewable, best value)</li>
+                <li><strong>Lifetime:</strong> $49.99 one-time purchase (no subscription)</li>
+            </ul>
+
+            <h4>Subscription Management</h4>
+            <ul>
+                <li><strong>Auto-renewal:</strong> Subscriptions automatically renew unless canceled at least 24 hours before the current period ends</li>
+                <li><strong>Cancellation:</strong> Open iOS Settings → [Your Name] → Subscriptions → CleanCore → Cancel Subscription</li>
+                <li><strong>Refunds:</strong> Managed by Apple. Contact Apple Support for refund requests within 14 days of purchase</li>
+                <li><strong>Restore purchases:</strong> Tap "Restore Purchases" in Settings if you've reinstalled the app</li>
+            </ul>
+
+            <h3>User Responsibilities</h3>
+            <p>You agree to:</p>
+            <ul>
+                <li><strong>Back up your photos</strong> before deletion (we cannot recover deleted photos)</li>
+                <li>Use the App only for lawful purposes</li>
+                <li>Not reverse engineer, modify, or redistribute the App</li>
+            </ul>
+
+            <h3>Disclaimers</h3>
+            <ul>
+                <li><strong>No Warranty:</strong> The App is provided "as is" without warranties of any kind</li>
+                <li><strong>Storage Estimates:</strong> Storage space calculations are estimates and may vary from actual results</li>
+                <li><strong>Deletion is Permanent:</strong> Deleted photos go to iOS Recently Deleted folder (recoverable for 30 days), but after that, they're gone forever</li>
+                <li><strong>Not a Backup Service:</strong> CleanCore is a cleaning tool, not a backup solution. Always maintain backups of important photos</li>
+            </ul>
+
+            <h3>Limitation of Liability</h3>
+            <p>We are not liable for:</p>
+            <ul>
+                <li>Accidental deletion of photos (always review before deleting)</li>
+                <li>Data loss due to device issues, iOS updates, or user error</li>
+                <li>Any indirect, incidental, or consequential damages</li>
+            </ul>
+
+            <h3>Termination</h3>
+            <p>We reserve the right to terminate or suspend access to the App if these Terms are violated. You may stop using the App at any time by deleting it from your device.</p>
+
+            <h3>Changes to Terms</h3>
+            <p>We may update these Terms from time to time. Continued use after changes constitutes acceptance of the updated Terms.</p>
+
+            <h3>Governing Law</h3>
+            <p>These Terms are governed by the laws of your jurisdiction. Disputes will be resolved in accordance with applicable consumer protection laws.</p>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-box">
+                <p><strong>Email:</strong> <a href="mailto:cdcjia101@gmail.com">cdcjia101@gmail.com</a></p>
+                <p><strong>App Support:</strong> Use "Send Feedback" in Settings within the app</p>
+                <p><strong>Response Time:</strong> We typically respond within 24-48 hours</p>
+            </div>
+            <p style="margin-top: 24px;">For purchase or subscription issues, please contact <a href="https://support.apple.com" target="_blank">Apple Support</a> directly, as all transactions are handled by Apple.</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 CleanCore. All rights reserved.</p>
+            <p style="margin-top: 8px;">This app is independently developed and not affiliated with Apple Inc.</p>
+        </footer>
+    </div>
+</body>
+</html>
